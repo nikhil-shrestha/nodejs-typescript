@@ -1,1 +1,5 @@
-console.log('Your code goes here...');
+import express from 'express';
+
+const app = express();
+
+app.listen(3000);
